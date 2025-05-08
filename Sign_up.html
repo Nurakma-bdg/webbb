@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Sign Up</title>
+</head>
+<body style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #002f6c, #2575fc); height: 100vh; display: flex; justify-content: center; align-items: center; padding: 20px;">
+
+  <main role="main" aria-label="Sign up form" style="background: #fff; width: 100%; max-width: 400px; border-radius: 12px; padding: 30px 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); box-sizing: border-box;">
+    
+    <header style="text-align: center; margin-bottom: 25px;">
+      <h2 style="font-size: 26px; color: #333; font-weight: 700;">Create Account</h2>
+    </header>
+
+    <form style="display: flex; flex-direction: column;">
+      <label for="fullname" style="font-weight: 600; margin-bottom: 6px; color: #444; font-size: 14px;">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Your full name" required autocomplete="name" style="padding: 12px; margin-bottom: 16px; border-radius: 8px; border: 1.8px solid #ddd; font-size: 15px;" />
+
+      <label for="email" style="font-weight: 600; margin-bottom: 6px; color: #444; font-size: 14px;">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" style="padding: 12px; margin-bottom: 16px; border-radius: 8px; border: 1.8px solid #ddd; font-size: 15px;" />
+
+      <label for="password" style="font-weight: 600; margin-bottom: 6px; color: #444; font-size: 14px;">Password</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required autocomplete="new-password" minlength="8" style="padding: 12px; margin-bottom: 16px; border-radius: 8px; border: 1.8px solid #ddd; font-size: 15px;" />
+
+      <label for="confirmPassword" style="font-weight: 600; margin-bottom: 6px; color: #444; font-size: 14px;">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" required autocomplete="new-password" minlength="8" style="padding: 12px; margin-bottom: 16px; border-radius: 8px; border: 1.8px solid #ddd; font-size: 15px;" />
+
+      <button type="submit" style="background-color: #2575fc; color: white; border: none; padding: 14px; font-size: 17px; border-radius: 8px; font-weight: 700; cursor: pointer; margin-top: 10px;">Sign Up</button>
+    </form>
+
+    <p style="margin-top: 20px; font-size: 14px; color: #555; text-align: center;">Already have an account? 
+      <a href="#" style="color: #2575fc; text-decoration: none; font-weight: 600;">Log in</a>
+    </p>
+
+  </main>
+</body>
+</html>
